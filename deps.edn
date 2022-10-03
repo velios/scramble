@@ -1,0 +1,12 @@
+{:paths ["src"]
+ :deps {ring/ring-core {:mvn/version "1.9.6"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.6"}
+        compojure/compojure {:mvn/version "1.7.0"}
+        org.clojure/clojure {:mvn/version "1.11.1"}
+
+        binaryage/oops {:mvn/version "0.7.2"}
+        reagent/reagent {:mvn/version "1.1.1"}
+        thheller/shadow-cljs {:mvn/version "2.20.2"}
+        cljs-http/cljs-http {:mvn/version "0.1.46"}
+        jumblerg/ring-cors {:mvn/version "3.0.0"}
+        org.clj-commons/clj-http-lite {:mvn/version "1.0.13"}}}

@@ -1,0 +1,7 @@
+{:deps true
+ :dev-http {8000 "public"}
+ :builds {:app {:target :browser
+                :output-dir "public/js"
+                :modules {:main {:init-fn scramble.core/init}}
+                :devtools {:after-load scramble.core/reload
+                           :repl-init-ns scramble.core}}}}
